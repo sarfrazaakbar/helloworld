@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Contacts" max_length="40" name="x_489771_contacts_contacts" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company 1" max_length="101" name="company_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company 2" max_length="45" name="company_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="86" name="email" type="string"/>
+        <element label="Ext 1" max_length="40" name="ext_1" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Ext 2" max_length="40" name="ext_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ext 3" max_length="40" name="ext_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Honorific" max_length="40" name="honorific" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Institution" max_length="90" name="institution" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Not for Public" max_length="40" name="not_for_public" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone 1" max_length="40" name="phone_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone 2" max_length="40" name="phone_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone 3" max_length="40" name="phone_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street address 1" max_length="93" name="street_address_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street address 2" max_length="52" name="street_address_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Suffix" max_length="40" name="suffix" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="92" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tribe" max_length="101" name="tribe" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Website" max_length="101" name="website" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip" max_length="40" name="zip" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
