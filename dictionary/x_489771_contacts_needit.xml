@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_489771_contacts_needit" type="collection">
+        <element display="true" label="First name" max_length="40" name="first_name" type="string"/>
+        <element label="Test Name" max_length="1024" name="test_name" type="string_full_utf8"/>
+    </element>
+</database>
